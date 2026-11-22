@@ -1,0 +1,172 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f0f3ff;
+    color: navy;
+    padding: 10px;
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+    background-color: #d6ddff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: blue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    margin: 15px;
+}
+
+section h2 {
+    color: navy;
+    background-color: #dce3ff;
+    padding: 8px;
+}
+/* Home Banner */
+
+
+/* Home Banner */
+
+#home {
+    margin: 0;
+}
+
+.campus-banner {
+    background-color: #102e63;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-text {
+    color: white;
+    padding: 0;
+}
+
+.banner-text h1 {
+    font-size: 38px;
+    margin: 5px 0;
+}
+
+.banner-text h1:nth-child(2) {
+    color: yellow;
+}
+
+.banner-text p {
+    font-size: 17px;
+    font-style: italic;
+}
+
+
+/* About */
+#about p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* Courses */
+#courses ul {
+    display: block;
+}
+
+li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: 1fr 450px;
+    gap: 30px;
+    align-items: start;
+}
+#courses {
+    display: block;
+    width: auto;
+}
+
+#courses h2 {
+    display: block;
+    width: auto;
+}
+
+
+
+.video {
+    width: 50%;
+    padding-top: 60px;
+}
+/* Gallery */
+.gallery {
+    width: 60%;
+    height: 200px;
+}
+
+/* Registration Form */
+form {
+    padding: 15px;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+    margin: 7px;
+}
+
+form input,
+form select {
+    padding: 6px;
+    margin: 5px;
+}
+
+button {
+    padding: 7px 20px;
+    margin: 10px;
+}
+
+/* Useful Links */
+#links a {
+    display: inline-block;
+    margin: 5px;
+    color: blue;
+}
+
+/* Footer */
+footer {
+    background-color: #102e63;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
